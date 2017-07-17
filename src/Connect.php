@@ -54,17 +54,17 @@ class Connect implements ConnectInterface
 
 	public function post($uri,$data)
 	{
-		return $this->method($uri,'POST',$data)
+		return $this->method($uri,'POST',$data);
 	}
 
 	public function put($uri,$data)
 	{
-		return $this->method($uri,'PUT',$data)
+		return $this->method($uri,'PUT',$data);
 	}
 
 	public function delete($uri)
 	{
-		return $this->method($uri,'DELETE',null)
+		return $this->method($uri,'DELETE',null);
 	}
 
 
