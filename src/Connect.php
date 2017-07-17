@@ -34,7 +34,7 @@ class Connect implements ConnectInterface
 	}
 
 	// set $uri = uri you want to retrieve , $requestResult = Result you want to retrieve
-	public function get($uri= null, $requestResult)
+	public function get($uri= null, $requestResult= null)
 	{
 		$uri = $uri === null ? $this->home : $uri ;
 		$client   = $this->client();
