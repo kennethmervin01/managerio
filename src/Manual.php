@@ -3,8 +3,8 @@ namespace Managerio;
 
 class Manual extends Connect
 {
-	public function __construct(){
-		parent::__construct();
+	public function __construct($auth = 'default'){
+		parent::__construct($auth);
 	}
 
 	public function getList($page,$key="index")
