@@ -126,7 +126,8 @@ class Connect implements ConnectInterface
 			"PurchaseInvoice" => "/58b9eb90-f6b8-4abc-8ea1-12fd77b8336e",
 			"Receipts" => "/8a995f93-a7a7-4297-a3b6-35a339a5ae0d",
 			"Employee" => "/dadb7f95-a5dd-45c0-945d-6ad4ee28776e",
-			"Capital"  => "/b9c4cd62-7569-44f0-bc62-9df3007a6a5c"
+			"Capital"  => "/b9c4cd62-7569-44f0-bc62-9df3007a6a5c",
+			"GoodReceipt" => "/866217a4-f841-47de-a4e6-87152405c88d"
 		);
 		return $this->base_uri.$this->businessID.$links[$name].$uri;
 	}
